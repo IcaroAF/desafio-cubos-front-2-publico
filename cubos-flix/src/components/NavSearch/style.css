@@ -1,0 +1,53 @@
+.navsearch{
+  background-color: #0F1C26;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.site-logo{
+  margin: 16px 20px 16px 70px
+}
+
+.navsearch input{
+  width: 100%;
+  padding: 16px 14px;
+  outline: 0;
+  background: #171b1e;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.submit-button{
+        margin-left: -50px;
+        border-radius: 5px;
+        right: 0px;
+        z-index: 2;
+        border: none;
+        top: 2px;
+        height: 30px;
+        cursor: pointer;
+        color: white;
+}
+
+
+.welcome-area{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 30px;
+}
+
+.profile-avatar{
+  object-fit: contain;
+  width: 56px;
+  height: 56px;
+}
+
+.form-area{
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  margin-right: 92px;
+}
